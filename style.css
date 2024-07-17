@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #222;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: rgb(101,97,174);
+    background: linear-gradient(90deg, rgba(101,97,174,1) 0%, rgba(77,160,172,1) 100%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 100px auto ;
+    padding: 40px 35px;
+    text-align: center;
+    color: white;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    display: flex;
+    background-color: #555 ;
+    background: #efffbc ;
+    margin-right: 16px;
+    font-size: 18px;
+    border-radius: 30px;
+    height: 60px;
+    padding: 10px 25px;
+}
+
+.search button{
+
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #555 ;
+    background: #efffbc ;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 16px;
+}
+
+.Error{
+    text-align: left;
+    margin-top: 15px;
+    font-size:25px;
+    display: none;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather img{
+    height: 230px;
+    width: 270px;
+    margin-top: 20px ;
+}
+
+
+.weather h1{
+    color:#fff;
+    font-size: 60px;
+}
+
+.weather h2{
+    color:#fff;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.weather{
+    display: none;
+}
+
+.extrainfo{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-top: 10px;
+    gap: 5px;
+    
+}
+
+.wind{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.wind span{
+    font-size: 20px;
+    padding: 10px 10px;
+    margin-left: 1px;
+}
+
+.windimg{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+.humidityimg{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
